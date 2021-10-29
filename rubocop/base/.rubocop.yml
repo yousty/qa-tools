@@ -10,18 +10,18 @@ AllCops:
     Max: 150
 
   Layout/LineLength:
-  Max: 100
-    AllowHeredoc: true
-    AllowURI: true
-    URISchemes:
-      - http
-      - https
-    IgnoreCopDirectives: false
-    IgnoredPatterns: []
-    Exclude:
-      - 'db/**/*.rb'
-      - 'components/*/db/**/*.rb'
-      - 'spec/features/*.rb'
-      - 'components/*/spec/features/*.rb'
-      - 'spec/controllers/*.rb'
-      - 'components/*/spec/controllers/*.rb'
+    Max: 100
+      AllowHeredoc: true
+      AllowURI: true
+      URISchemes:
+        - http
+        - https
+      IgnoreCopDirectives: false
+      IgnoredPatterns: []
+      Exclude:
+        - 'db/**/*.rb'
+        - 'components/*/db/**/*.rb'
+        - 'spec/features/*.rb'
+        - 'components/*/spec/features/*.rb'
+        - 'spec/controllers/*.rb'
+        - 'components/*/spec/controllers/*.rb'

@@ -5,3 +5,6 @@ Style/Documentation:
 
 Style/Copyright:
   Enabled: false
+
+Lint/NumberConversion:
+   Enabled: false

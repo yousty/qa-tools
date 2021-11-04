@@ -8,3 +8,6 @@ Style/Copyright:
 
 Lint/NumberConversion:
    Enabled: false
+
+Bundler/GemComment:
+   Enabled: false

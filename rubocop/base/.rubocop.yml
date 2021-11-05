@@ -31,6 +31,5 @@ Layout/LineLength:
     - 'spec/controllers/*.rb'
     - 'components/*/spec/controllers/*.rb'
     
- Metrics/MethodLength:
-   CountComments: false  # count full line comments?
-   Max: 20
+Metrics/MethodLength:
+  Max: 20

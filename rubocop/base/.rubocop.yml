@@ -30,3 +30,6 @@ Layout/LineLength:
     - 'components/*/spec/features/*.rb'
     - 'spec/controllers/*.rb'
     - 'components/*/spec/controllers/*.rb'
+    
+ Metrics/MethodLength:
+   Max: 20

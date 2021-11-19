@@ -1,13 +1,16 @@
 # These are all the cops that are disabled in the default configuration.
 
 Style/Documentation:
-   Enabled: false
+  Enabled: false
 
 Style/Copyright:
   Enabled: false
 
 Lint/NumberConversion:
-   Enabled: false
+  Enabled: false
 
 Bundler/GemComment:
-   Enabled: false
+  Enabled: false
+   
+Rails/SkipsModelValidations:
+  Enabled: false

@@ -41,3 +41,6 @@ Metrics/BlockLength:
 Metrics/ModuleLength:
   Exclude:
     - "spec/**/*_spec.rb"
+
+Layout/DotPosition:
+   EnforcedStyle: trailing

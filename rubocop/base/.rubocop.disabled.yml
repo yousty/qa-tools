@@ -14,9 +14,6 @@ Bundler/GemComment:
    
 Rails/SkipsModelValidations:
   Enabled: false
-  
-Lint/DuplicateBranch:
-  IgnoreLiteralBranches: true
 
 Metrics/BlockLength:
   Exclude:

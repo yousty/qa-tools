@@ -44,3 +44,7 @@ Metrics/ModuleLength:
 
 Layout/DotPosition:
    EnforcedStyle: trailing
+   
+Lint/DuplicateBranch:
+  Enabled: true
+  IgnoreLiteralBranches: true

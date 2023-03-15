@@ -22,7 +22,6 @@ Layout/LineLength:
     - http
     - https
   IgnoreCopDirectives: false
-  IgnoredPatterns: []
   Exclude:
     - 'db/**/*.rb'
     - 'components/*/db/**/*.rb'

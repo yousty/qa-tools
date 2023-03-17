@@ -11,10 +11,6 @@ Lint/NumberConversion:
 
 Bundler/GemComment:
   Enabled: false
-   
+
 Rails/SkipsModelValidations:
   Enabled: false
-
-Metrics/BlockLength:
-  Exclude:
-    - /**/*_spec.rb

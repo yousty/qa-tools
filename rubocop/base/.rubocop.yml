@@ -35,11 +35,15 @@ Metrics/MethodLength:
 
 Metrics/BlockLength:
   Exclude:
-    - "spec/**/*_spec.rb"
+    - '**/spec/**/*'
+    - '**/factories/**/*'
+    - '**/config/routes.rb'
 
 Metrics/ModuleLength:
   Exclude:
-    - "spec/**/*_spec.rb"
+    - '**/spec/**/*'
+    - '**/factories/**/*'
+    - '**/config/routes.rb'
 
 Layout/DotPosition:
    EnforcedStyle: trailing

@@ -51,3 +51,6 @@ Layout/DotPosition:
 Lint/DuplicateBranch:
   Enabled: true
   IgnoreLiteralBranches: true
+  
+Style/EndlessMethod:
+  EnforcedStyle: disallow

@@ -38,6 +38,7 @@ Metrics/BlockLength:
     - '**/spec/**/*'
     - '**/factories/**/*'
     - '**/config/routes.rb'
+    - '**/tasks/eventstore.rake'
 
 Metrics/ModuleLength:
   Exclude:
@@ -47,10 +48,10 @@ Metrics/ModuleLength:
 
 Layout/DotPosition:
    EnforcedStyle: trailing
-   
+
 Lint/DuplicateBranch:
   Enabled: true
   IgnoreLiteralBranches: true
-  
+
 Style/EndlessMethod:
   EnforcedStyle: disallow

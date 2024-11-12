@@ -4,6 +4,7 @@ require:
 
 AllCops:
   NewCops: enable
+  TargetRubyVersion: 3.3.6
 
 Metrics/ClassLength:
   Description: 'Avoid classes longer than 100 lines of code.'

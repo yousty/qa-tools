@@ -3,6 +3,9 @@
 Style/Documentation:
   Enabled: false
 
+Style/AccessModifierDeclarations:
+  Enabled: false
+
 Style/Copyright:
   Enabled: false
 

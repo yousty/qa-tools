@@ -47,6 +47,12 @@ Metrics/ModuleLength:
     - '**/factories/**/*'
     - '**/config/routes.rb'
 
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/FirstArgumentIndentation:
+  EnforcedStyle: consistent
+
 Layout/DotPosition:
    EnforcedStyle: trailing
 

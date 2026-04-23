@@ -17,29 +17,3 @@ Bundler/GemComment:
 
 Rails/SkipsModelValidations:
   Enabled: false
-
-# RSpec describe/context blocks, db migration `change` blocks, and environment
-# configurators naturally run long. Every Rails project in the monorepo excludes
-# these paths — promoting from per-project overrides into the shared base.
-Metrics/BlockLength:
-  Exclude:
-    - "**/spec/**/*"
-    - "**/db/migrate/**/*"
-    - "**/config/environments/*.rb"
-    - "**/config/initializers/*.rb"
-
-Metrics/MethodLength:
-  Exclude:
-    - "**/db/migrate/**/*"
-
-Metrics/AbcSize:
-  Exclude:
-    - "**/db/migrate/**/*"
-
-# rails_helper.rb is the Rails scaffold — keep the stock abort/exit/I18n pattern.
-Rails/Exit:
-  Exclude:
-    - "**/spec/rails_helper.rb"
-Rails/I18nLocaleAssignment:
-  Exclude:
-    - "**/spec/rails_helper.rb"
